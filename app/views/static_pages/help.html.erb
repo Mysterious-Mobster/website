@@ -1,0 +1,30 @@
+<% provide(:title, "Signup") %>
+<!DOCTYPE html>
+<html>
+	<Head>
+		<title><%= yield(:title) %> </title>
+	</Head>
+	<body>
+		<div class= "Inputs">
+			<div class="input-group input-group-lg">
+  				<span class="input-group-addon" id="sizing-addon1">Email</span>
+  					<input type="text" class="form-control" placeholder="blank@blank.com" aria-describedby="sizing-addon1">
+			</div>
+
+			<div class="input-group">
+  				<span class="input-group-addon" id="sizing-addon2">Username</span>
+  					<input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+			</div>
+
+			<div class="input-group input-group-sm">
+ 				<span class="input-group-addon" id="sizing-addon3">Password</span>
+  					<input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
+			</div>
+			<div class="input-group input-group-sm">
+ 				<span class="input-group-addon" id="sizing-addon4">Confirm Password</span>
+  					<input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon4">
+  			</div>		
+		</div>
+	</body>
+</html>
+

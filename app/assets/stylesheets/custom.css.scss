@@ -2,11 +2,15 @@
 @import "bootstrap";
 
 
-stargazing {
+div.stargazing {
 	background-image: url(https://unsplash.com/photos/0LU4vO5iFpM)
 }	
 
-Inputs {
-	font-style: center;
+div.inputs {
+	text-align: center;
 	font-style: times;
+	font-size: 5em;
+	right: 50%;
+	left: 50%;
+	overflow: auto;
 }
